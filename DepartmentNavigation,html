@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BCA Department</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+        }
+
+        header {
+            background: #12355b;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background: #087e8b;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 18px;
+        }
+
+        nav a:hover {
+            background: #095c64;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 20px;
+        }
+
+        .welcome {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .links {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 25px;
+        }
+
+        .links a {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            color: #12355b;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #12355b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 650px) {
+            .links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>BCA Department</h1>
+    <p>Department Navigation Portal</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#labs">Labs</a>
+    <a href="#assignments">Assignments</a>
+    <a href="#notices">Notices</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main id="home">
+
+    <div class="welcome">
+        <h2>Welcome to the BCA Department</h2>
+        <p>
+            This page provides quick access to important department
+            resources and information.
+        </p>
+    </div>
+
+    <div class="links">
+
+        <a href="#about">About Department</a>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#labs">Computer Labs</a>
+        <a href="#assignments">Assignments</a>
+        <a href="#notices">Notice Board</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 BCA Department</p>
+</footer>
+
+</body>
+</html>
